@@ -1,0 +1,43 @@
+{
+    "name": "thinhpd/translate",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/thinhpd/translate",
+    "keywords": ["Laravel", "Translate"],
+    "require": {
+        "illuminate/support": "~5|~6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thinhpd\\Translate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thinhpd\\Translate\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thinhpd\\Translate\\TranslateServiceProvider"
+            ],
+            "aliases": {
+                "Translate": "Thinhpd\\Translate\\Facades\\Translate"
+            }
+        }
+    }
+}
