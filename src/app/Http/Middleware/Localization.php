@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Thinhpd\Translate\App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\App;

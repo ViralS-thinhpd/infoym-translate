@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Thinhpd\Translate\App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
